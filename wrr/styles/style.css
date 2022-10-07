@@ -31,7 +31,7 @@
 #content {
           max-width: 1600px;
           margin: 0 auto;
-          border: 2px solid red;
+          /* border: 2px solid red; */
           text-align: center;
 }
 a {
