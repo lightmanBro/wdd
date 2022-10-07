@@ -40,7 +40,7 @@ a {
 }
 a:hover {
           background-color: var(--primary-color);
-          color: var(--paragraph-color-on-color);
+          color: var(--nav-hover-link-color);
 }
 nav a
 #hero-msg h1, #hero-msg h4
@@ -48,7 +48,9 @@ nav a
 main section {
           text-align: center;
 }
-
+h1, h2, h3, h4 {
+          padding: 1rem;
+}
 body {
           background-color: #fcfbfb;
           font-size: 65%;
@@ -64,6 +66,9 @@ header img {
 }
 header a {
           color: var(--paragraph-color-on-color);
+}
+.button-box a {
+          color: var(--paragraph-color-on-white);
 }
 nav a:hover {
           background-color: black;
