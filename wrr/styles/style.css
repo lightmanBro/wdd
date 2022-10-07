@@ -67,6 +67,9 @@ header img {
 header a {
           color: var(--paragraph-color-on-color);
 }
+.logo {
+          width: 8rem;
+}
 .button-box a {
           color: var(--paragraph-color-on-white);
 }
