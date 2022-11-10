@@ -178,6 +178,11 @@ nav {
 .logo {
           width: 8rem;
 }
+
+.page-2 {
+    background-color: #2A2B2A;
+}
+
 .button-box a {
           color: var(--paragraph-color-on-white);
 }
@@ -279,4 +284,32 @@ footer a {
     footer {
         margin-top: 25px;
     }
+}
+
+
+
+/* PAGE 2 */
+.page-2-hero {
+    height: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.hero-2 {
+    height: 50vh;
+    border:2px solid black;
+}
+
+.hero-2-small-box-container {
+    height: fit-content;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid tomato;
+}
+.hero-2-small {
+    height: 300px;
+    width: 250px;
+    border: solid tomato 1px;
 }
