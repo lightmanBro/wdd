@@ -300,10 +300,13 @@ footer a {
 }
 
 .hero-2 {
-    height: 50vh;
+    height: 80vh;
     border:2px solid black;
 }
-
+.hero-2 img {
+    height: 100%;
+    width: 100%;
+} 
 .hero-2-small-box-container {
     height: fit-content;
     padding: 100px 0;
