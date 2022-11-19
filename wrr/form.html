@@ -10,7 +10,7 @@
 <body>
           <div id="content">
 
-                    <header>
+                    <header class="forms">
                               <a id="logo-link" href="index.html">
                                 <img src="images/logo.png" alt="Dry Oar Logo" class="logo"></a>
                               <nav>
@@ -21,14 +21,28 @@
                                         <!-- <a href=""></a> -->
                               </nav>
                     </header>
-          
-                    <div id="hero">
+                    <form action="/my-handling-form-page" method="post" class="enteries">
+                      <label for="time"></label>
+                        <input type="time">
+                        <input type="week">
+                        <input type="color">
+                        <input type="datetime-local">
+                        <input type="range">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="userName">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="userEmail">
+                        <label for="text-area">Message</label>
+                        <textarea name="UserMessage" id="text-area" cols="30" rows="10"></textarea>
+                        <button class="enteries-btn" type="submit">SEND</button>
+                    </form>
+                    <!-- <div id="hero">
                               <div id="hero-box">
                                         <img src="images/hero.png" alt="People Enjoying whit" id="hero-img">
                               </div>
-                    </div>
+                    </div> -->
                     
-                    <section id="hero-msg">
+                    <!-- <section id="hero-msg">
                               <h1 class="home-title">Have An Adventure</h1>
                               <h4>Make Memories With Dry Oar</h4>
 
@@ -70,8 +84,8 @@
                                         <a href="rivers.html" class="join">Join Us</a>
                               </section>
                     </main>
-          
-                    <footer>
+           -->
+                    <footer class="contact-us-footer">
                               <p>Dry Oar &copy; 2022 - Omotoso David</p>
                               <p><a href="site-plan-rafting.html">Site Plan</a></p>
                               <p><a href="contact-us.html">Contact Us</a></p>
